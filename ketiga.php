@@ -69,7 +69,7 @@ class Kerucut
         return self::PHI * pow($this->jari_jari, 2) * $this->tinggi;
         
     }
-}
+} 
 
 $nasi_tumpeng = new Lingkaran(4);
 echo  "LuasLingkaran = " . $nasi_tumpeng-> luas() . " cm\n";
