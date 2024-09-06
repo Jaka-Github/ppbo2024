@@ -5,8 +5,8 @@ $descriptions = [
     "Best Storytelling book.",
 ];
 
-class Author {
-
+class Author 
+{
     public $name,
            $description; 
 
@@ -31,8 +31,8 @@ class Author {
           echo "Type '$type' not recognized.\n";
       }
   }
-}
 
+}
     
  $author = new Author($names, $descriptions);
  $author->show('name');
