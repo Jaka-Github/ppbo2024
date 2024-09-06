@@ -1,4 +1,9 @@
 <?php
+$names = ["Masamu" , "Jole Corn" ];
+$descriptions = [
+    "The author of best action comics.",
+    "Best Storytelling book.",
+];
 class Author 
 {
     public $name,
