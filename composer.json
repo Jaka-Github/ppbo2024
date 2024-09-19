@@ -1,0 +1,13 @@
+{
+    "name": "jaka-github/ppbo2024",
+    "description": "Merupakan package untuk latihan pemograman berorientasi objek",
+    "type": "project",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "App\\":"App"
+        }
+    }
+
+}
