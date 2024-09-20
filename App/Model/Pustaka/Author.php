@@ -1,4 +1,6 @@
 <?php
+
+namespace App\Model\Pustaka;
 $names = ["Masamu" , "Jole Corn" ];
 $descriptions = [
     "The author of best action comics.",

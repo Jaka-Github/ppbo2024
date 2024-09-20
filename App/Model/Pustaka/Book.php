@@ -1,4 +1,6 @@
 <?php
+
+namespace App\Model\Pustaka;
 class Book {
 
     public $ISBN, $title, $description, $category, $language, $numberOfPage, $author,
