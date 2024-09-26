@@ -4,7 +4,7 @@ namespace App\Model\Akademik;
 use App\Model\Akademik\Pegawai;
 
 class Dosen extends Pegawai{
-    public $nidn;
+    private $nidn;
 
     public function __construct($nidn, $nip, $nama, $no_hp, $alamat) {
 
@@ -12,13 +12,16 @@ class Dosen extends Pegawai{
     
 
 
-        parent::__construct($nidn, $nip, $nama, $no_hp, $alamat);  
+        parent::__construct($nip, $nama, $no_hp, $alamat);
     }
 
-    public function mengajar(string $nama) : void {
-        echo $nama . " sedang mengajar perkuliahan" . "\n";
+  
+
+
+    public function mengajar() : void {
+        echo $this->nama . " sedang mengajar perkuliahan" . "\n";
         
     }
-    
+
 
 }

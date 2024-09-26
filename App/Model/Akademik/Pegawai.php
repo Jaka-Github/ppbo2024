@@ -29,7 +29,7 @@ class Pegawai {
     }
 
     
-    public function getNoHP(): int {
+    protected function getNoHP(): int {
         return $this->no_hp;
     }
 
